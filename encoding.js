@@ -38,7 +38,21 @@ const copmress=(text) =>{
     }
 return result;
 
+
 }
 var ar ="AAABBADDTY";
 console.log("AAABBDDTY");
 console.log(copmress(ar));
+
+
+
+let numberes = [7,2,3,8];
+// let sum = 0;
+// for(let number of numberes){
+//     sum+=number
+// }
+let sum = numberes.reduce((accumlator, currentValue)=>{
+    return accumlator + currentValue;
+},0)
+
+console.log(sum);
