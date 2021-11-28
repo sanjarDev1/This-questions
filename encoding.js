@@ -56,3 +56,18 @@ let sum = numberes.reduce((accumlator, currentValue)=>{
 },0)
 
 console.log(sum);
+
+
+
+// includes function 
+
+const numbers = [1,2,3,4,5];
+
+function includes(array,elementToFind){
+    var bool = false;
+    for(let val of array){
+         if(val === elementToFind) bool = true
+    }
+    return bool
+}
+console.log(includes(numbers,1))
